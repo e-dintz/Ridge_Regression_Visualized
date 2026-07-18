@@ -3,4 +3,6 @@ In this repository, I share a nice visual exploration of ridge regression throug
 
 ### How to use this codebook
 In the first chunk, you can choose any (preferably low-degree) polynomial as a ground truth model and tune the noise of the generated data.
-![First Chunk Image](chunk1.png)
+<div align="center">
+  <img src="chunk1.png" width="300">
+</div>

@@ -6,3 +6,8 @@ In the first chunk, you can choose any (preferably low-degree) polynomial as a g
 <div align="center">
   <img src="chunk1.png" width="500">
 </div>
+
+Next, you can compare the least squares fit of a high degree polynomial (typically overfit) with one ridge regression fit, for instance $\alpha=10$.
+<div align="center">
+  <img src="chunk2_1.png" width="500"><img src="chunk2_2.png" width="500">
+</div>

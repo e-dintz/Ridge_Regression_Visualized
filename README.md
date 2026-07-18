@@ -11,3 +11,8 @@ Next, you can compare the least squares fit of a high degree polynomial (typical
 <div align="center">
   <img src="chunk2_1.png" width="300"><img src="chunk2_2.png" width="300">
 </div>
+
+To explore the ridge fit further, the next chunk allows you to do a train-test split and choose a hyperparameter to try sparsify the high degree polynomial fit.
+<div align="center">
+  <img src="chunk3.png" width="300">
+</div>

@@ -23,6 +23,6 @@ Before generating the animation, you are also able to graph what the train-test 
 </div>
 In the final chunk, you can run an animation that simulataneously shows how the fit changes when you vary $\log\alpha$. It generates 100 frames that are saved to your output directory of choice and that you can stitch together with built-in software like QuickTime player. Below is one example of a frame.
 <div align="center">
-  <img src="frame76.png" width="300">
+  <img src="frame76.png" width="500">
 </div>
 Please leave a comment if you have any questions or issues! I hope this helps provide a little bit of intuition about how ridge regression works to sparsify models.

@@ -7,7 +7,7 @@ In the first chunk, you can choose any (preferably low-degree) polynomial as a g
   <img src="chunk1.png" width="500">
 </div>
 
-Next, you can compare the least squares fit of a high degree polynomial (typically overfit) with one ridge regression fit, for instance $\alpha=10$. The \texttt{sklearn} ridge regression package solves the optimization problem $\arg\min_{\vec{\beta}} { \|\vec{y} - \mathbf{X}\vec{\beta}\|_2 + \alpha\|\vec{\beta}\|_2 }$, in other it solves for a parameter vector that minimizes the residuals and the $\ell^2$ norm of the parameter vector $\vec{\beta}$.
+Next, you can compare the least squares fit of a high degree polynomial (typically overfit) with one ridge regression fit, for instance $\alpha=10$. The \texttt{sklearn} ridge regression package solves the optimization problem $\arg\min_{\beta} \lbrace \|y - X\beta\|_2 + \alpha\|\beta\|_2 \rbrace$, in other it solves for a parameter vector that minimizes the residuals and the $\ell^2$ norm of the parameter vector $\vec{\beta}$.
 <div align="center">
   <img src="chunk2_1.png" width="300"><img src="chunk2_2.png" width="300">
 </div>

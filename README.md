@@ -16,3 +16,8 @@ To explore the ridge fit further, the next chunk allows you to do a train-test s
 <div align="center">
   <img src="chunk3.png" width="300">
 </div>
+
+Before generating the animation, you are also able to graph what the train-test $R^2$ looks like when you sweep the $\alpha$ hyperparameter. For this particular polynomial, it looks something like this:
+<div align="center">
+  <img src="chunk4.png" width="300">
+</div>
